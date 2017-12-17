@@ -43,10 +43,6 @@ class ToDoItemTests: XCTestCase {
                        "should set timestamp")
     }
     
-    func test_Init_WhenGivenLocation_SetsLocation() {
-        let location = Location(name: "Foo")
-    }
-    
     func test_Init_SetsLocation() {
         let location = Location(name: "Foo")
         let item = ToDoItem(title: "",
