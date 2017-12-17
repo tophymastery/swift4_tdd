@@ -6,6 +6,39 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <scenes/>
+    <scenes>
+        <!--Item List View Controller-->
+        <scene sceneID="N5a-xP-gQG">
+            <objects>
+                <viewController storyboardIdentifier="ItemListViewController" id="Odd-Nh-PcX" customClass="ItemListViewController" customModule="swift_tdd" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EHb-Wj-z6y">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="elD-FI-3Ti">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6ua-45-Hg5" firstAttribute="trailing" secondItem="elD-FI-3Ti" secondAttribute="trailing" id="GY3-3v-8Z5"/>
+                            <constraint firstItem="6ua-45-Hg5" firstAttribute="bottom" secondItem="elD-FI-3Ti" secondAttribute="bottom" id="Spf-KI-18M"/>
+                            <constraint firstItem="elD-FI-3Ti" firstAttribute="leading" secondItem="6ua-45-Hg5" secondAttribute="leading" id="fBR-qm-1r4"/>
+                            <constraint firstItem="elD-FI-3Ti" firstAttribute="top" secondItem="6ua-45-Hg5" secondAttribute="top" id="i00-fO-0xC"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6ua-45-Hg5"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="elD-FI-3Ti" id="sj7-JW-PVf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sxp-SG-x8x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-476" y="162"/>
+        </scene>
+    </scenes>
 </document>
