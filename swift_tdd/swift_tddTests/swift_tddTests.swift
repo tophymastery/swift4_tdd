@@ -11,9 +11,11 @@ import XCTest
 
 class swift_tddTests: XCTestCase {
     
+    var subject: ViewController! 
+    
     override func setUp() {
         super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        subject = ViewController()
     }
     
     override func tearDown() {
@@ -34,13 +36,20 @@ class swift_tddTests: XCTestCase {
 //    }
     
     func test_NumberOfVowels_WhenPassedDominik_ReturnsThree() {
-        let viewController = ViewController()
         let inputString = "Dominik"
         
-        let numberOfVowels = viewController.numberOfVowels(in: inputString)
+        let numberOfVowels = subject.numberOfVowels(in: inputString)
         
-        XCTAssertEqual(numberOfVowels, 3, "should find 3 vowels in Dominik")
+        XCTAssertEqual(numberOfVowels, 3,
+                       "should find 3 vowels in Dominik")
+    }
+    
+    func test_MakeHeadline_ReturnsStringWithEachWordStartCapital() {
+        let string = "this is A test headline"
         
+        let headline = subject.makeHeadline(from: string)
+        
+        XCTAssertEqual(headline, "Here Is Another Example") 
     }
     
 }
