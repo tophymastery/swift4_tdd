@@ -14,6 +14,10 @@
 		A688AC0E1FE6489000B454C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A688AC0C1FE6489000B454C2 /* LaunchScreen.storyboard */; };
 		A688AC191FE6489000B454C2 /* swift_tddTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A688AC181FE6489000B454C2 /* swift_tddTests.swift */; };
 		A688AC241FE6489000B454C2 /* swift_tddUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A688AC231FE6489000B454C2 /* swift_tddUITests.swift */; };
+		A688AC321FE65FE700B454C2 /* ToDoItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A688AC311FE65FE700B454C2 /* ToDoItemTests.swift */; };
+		A688AC351FE6607600B454C2 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A688AC341FE6607600B454C2 /* ToDoItem.swift */; };
+		A688AC371FE6661B00B454C2 /*  Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = A688AC361FE6661B00B454C2 /*  Location.swift */; };
+		A688AC391FE666F900B454C2 /* LocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A688AC381FE666F900B454C2 /* LocationTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		A688AC1F1FE6489000B454C2 /* swift_tddUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swift_tddUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A688AC231FE6489000B454C2 /* swift_tddUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_tddUITests.swift; sourceTree = "<group>"; };
 		A688AC251FE6489000B454C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A688AC311FE65FE700B454C2 /* ToDoItemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemTests.swift; sourceTree = "<group>"; };
+		A688AC341FE6607600B454C2 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		A688AC361FE6661B00B454C2 /*  Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " Location.swift"; sourceTree = "<group>"; };
+		A688AC381FE666F900B454C2 /* LocationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,7 @@
 		A688AC021FE6489000B454C2 /* swift_tdd */ = {
 			isa = PBXGroup;
 			children = (
+				A688AC331FE6606500B454C2 /* Todo */,
 				A688AC031FE6489000B454C2 /* AppDelegate.swift */,
 				A688AC051FE6489000B454C2 /* ViewController.swift */,
 				A688AC071FE6489000B454C2 /* Main.storyboard */,
@@ -112,6 +121,8 @@
 			children = (
 				A688AC181FE6489000B454C2 /* swift_tddTests.swift */,
 				A688AC1A1FE6489000B454C2 /* Info.plist */,
+				A688AC311FE65FE700B454C2 /* ToDoItemTests.swift */,
+				A688AC381FE666F900B454C2 /* LocationTests.swift */,
 			);
 			path = swift_tddTests;
 			sourceTree = "<group>";
@@ -123,6 +134,15 @@
 				A688AC251FE6489000B454C2 /* Info.plist */,
 			);
 			path = swift_tddUITests;
+			sourceTree = "<group>";
+		};
+		A688AC331FE6606500B454C2 /* Todo */ = {
+			isa = PBXGroup;
+			children = (
+				A688AC341FE6607600B454C2 /* ToDoItem.swift */,
+				A688AC361FE6661B00B454C2 /*  Location.swift */,
+			);
+			path = Todo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +281,8 @@
 			files = (
 				A688AC061FE6489000B454C2 /* ViewController.swift in Sources */,
 				A688AC041FE6489000B454C2 /* AppDelegate.swift in Sources */,
+				A688AC351FE6607600B454C2 /* ToDoItem.swift in Sources */,
+				A688AC371FE6661B00B454C2 /*  Location.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +290,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A688AC321FE65FE700B454C2 /* ToDoItemTests.swift in Sources */,
+				A688AC391FE666F900B454C2 /* LocationTests.swift in Sources */,
 				A688AC191FE6489000B454C2 /* swift_tddTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
