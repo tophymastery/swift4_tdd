@@ -20,6 +20,7 @@
 		A688AC3F1FE668D400B454C2 /* ItemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A688AC3E1FE668D400B454C2 /* ItemManager.swift */; };
 		A688AC411FE6C1C200B454C2 /* ItemListViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A688AC401FE6C1C200B454C2 /* ItemListViewControllerTest.swift */; };
 		A688AC431FE6C28D00B454C2 /* ItemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A688AC421FE6C28D00B454C2 /* ItemListViewController.swift */; };
+		A688AC451FE6C76F00B454C2 /* ItemListDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A688AC441FE6C76F00B454C2 /* ItemListDataProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		A688AC3E1FE668D400B454C2 /* ItemManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemManager.swift; sourceTree = "<group>"; };
 		A688AC401FE6C1C200B454C2 /* ItemListViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListViewControllerTest.swift; sourceTree = "<group>"; };
 		A688AC421FE6C28D00B454C2 /* ItemListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListViewController.swift; sourceTree = "<group>"; };
+		A688AC441FE6C76F00B454C2 /* ItemListDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListDataProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 			children = (
 				A688AC3D1FE668C900B454C2 /* Model */,
 				A688AC421FE6C28D00B454C2 /* ItemListViewController.swift */,
+				A688AC441FE6C76F00B454C2 /* ItemListDataProvider.swift */,
 			);
 			path = Todo;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A688AC3F1FE668D400B454C2 /* ItemManager.swift in Sources */,
+				A688AC451FE6C76F00B454C2 /* ItemListDataProvider.swift in Sources */,
 				A688AC041FE6489000B454C2 /* AppDelegate.swift in Sources */,
 				A688AC351FE6607600B454C2 /* ToDoItem.swift in Sources */,
 				A688AC371FE6661B00B454C2 /*  Location.swift in Sources */,

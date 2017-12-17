@@ -33,10 +33,12 @@
                         <viewLayoutGuide key="safeArea" id="6ua-45-Hg5"/>
                     </view>
                     <connections>
+                        <outlet property="dataProvider" destination="eDJ-my-jSV" id="Leb-g2-35X"/>
                         <outlet property="tableView" destination="elD-FI-3Ti" id="sj7-JW-PVf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sxp-SG-x8x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="eDJ-my-jSV" customClass="ItemListDataProvider" customModule="swift_tdd" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="-476" y="162"/>
         </scene>
